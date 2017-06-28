@@ -1,3 +1,6 @@
-/**
- * Created by daffolap-402 on 28/6/17.
- */
+
+fun main(args: Array<String>){
+    for(index in 1..10){
+        println("Index: $index")
+    }
+}
