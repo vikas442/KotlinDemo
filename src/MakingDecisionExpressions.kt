@@ -5,4 +5,15 @@ fun main(args: Array<String>) {
     var max = if (n1 > n2) n1 else n2
 
     println("Max: $max")
+
+    //When
+
+    var age = 30
+
+    var isYoung = when (age) {
+        30 -> true
+        else -> false
+    }
+
+    println("Is Young: $isYoung")
 }
