@@ -1,3 +1,16 @@
-/**
- * Created by daffolap-402 on 29/6/17.
- */
+class UserAdmins<T>(credit: T) {
+    init {
+        println(credit)
+    }
+}
+
+fun <T> display(data: T) {
+    println(data)
+}
+
+fun main(args: Array<String>) {
+    var admin1 = UserAdmins("Vikas")
+    var admin2 = UserAdmins(1793)
+
+    display("Generics")
+}
